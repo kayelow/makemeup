@@ -1,5 +1,24 @@
 from scrapy.item import Item, Field
 
-class MakemeupItem(Item):
-    # define the fields for your item here like:
+class BeautyProduct(Item):
     product_name = Field()
+    ingredients = Field()
+    limited_edition = Field()
+    new_offering = Field()
+    sephora_exclusive = Field()
+    list_price = Field()
+    value_price = Field()
+    variation_value = Field()
+    beauty_insider_exclusive = Field()
+    brand_name = Field()
+    product_type = Field()
+    average_rating = Field()
+    variations_on = Field()
+    ingredients = Field()
+    not_for_sale_in = Field()
+    sku_size = Field()
+    sku_number = Field()
+    sephora_url = Field()
+    sephora_product_id = Field()
+    scrapyed_on = Field()
+    description = Field()
